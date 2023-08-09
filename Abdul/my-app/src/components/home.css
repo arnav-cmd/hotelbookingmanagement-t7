@@ -1,0 +1,103 @@
+.App {
+
+    text-align: center;
+  
+    height: 100vh;
+  
+   
+  
+    background-repeat: no-repeat;
+  
+  }
+  .bgs{
+    
+    background-image: url('C:\Users\shaik.abdulkalam\Desktop\login\my-app\src\components\pic1.png');
+
+  }
+  
+  .homenav{
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+    
+  
+  }
+  
+  .homenav nav{
+  
+    font-size: 2em;
+  
+    margin-top: 20px;
+  
+    color: azure;
+  
+    font-family: 'Courier New', Courier, monospace;
+  
+  }
+  
+  .brandname{
+  
+    color: azure;
+  
+    font-size: 180px;
+  
+    /* margin-top: 70px; */
+  
+    font-family:Monaco;
+  
+  }
+  
+  .slogan{
+  
+    color: azure;
+  
+    font-family: Brush Script MT;
+  
+    font-size: 40px;
+  
+  }
+  
+  .heart{
+  
+    color: crimson;
+  
+  }
+  
+  .footer1{
+  
+    color: azure;
+  
+  }
+  
+  .footer2{
+  
+    color: azure;
+  
+  }
+  
+  .footernav{
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    margin-top: 200px;
+  
+  }
+  
+  .footernav nav{
+  
+    font-size: 2em;
+  
+    margin-top: 20px;
+  
+    color: azure;
+  
+    font-family: 'Courier New', Courier, monospace;
+  
+  }
