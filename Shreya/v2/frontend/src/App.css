@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.homediv{
+  text-align: center;
+  height: 100vh;
+  background-image: url('C:\Users\shreya.a\Desktop\Hotel Booking System\pic1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.aboutusdiv{
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('C:\Users\shreya.a\Desktop\Hotel Booking System\pic2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+  
+}
+.userhomediv{
+  text-align: center;
+  height: 100vh;
+  background-image: url('C:\Users\shreya.a\Desktop\Hotel Booking System\pic3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bookingdiv{
+  height: 100vh;
+  background-image: url('C:\Users\shreya.a\Desktop\Hotel Booking System\pic4.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminlogindiv{
+  text-align: center;
+  height: 100vh;
+  background-image: url('C:\Users\shreya.a\Desktop\Hotel Booking System\pic5.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminlogindiv input{
+  width: 300px;
+  height: 25px;
+}
+.adminlogindiv button{
+  width: 100px;
+  height: 25px;
+}
+.adminhomediv{
+  text-align: center;
+  height: 100vh;
+  background-image: url('C:\Users\shreya.a\Desktop\Hotel Booking System\pic6.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+.bookingbg{
+  height: fit-content;
+}
+.bookingbg input, .bookingbg button{
+  width: 170px;
+  height: 40px;
+}
+
+.bookingbg button{
+  border:none;
+}
+
+.navBar{
+ position: absolute;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.homenav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homenav nav{
+  font-size: 2em;
+  margin-top: 20px;
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+}
+.brandname{
+  color: azure;
+  font-size: 80px;
+  margin-top: 70px;
+  font-family:Monaco;
+}
+.slogan{
+  color: azure;
+  font-family: Brush Script MT;
+  font-size: 40px;
+}
+.heart{
+  color: crimson;
+}
+.footer1{
+  color: azure;
+}
+.footer2{
+  color: azure;
+}
+.footernav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.footernav nav{
+  font-size: 2em;
+  margin-top: 20px;
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card ,.card-2,.card-3,.card-4{
+  box-shadow: 0 4px 8px 0 rgba(253, 251, 251, 0.753);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.card-2{
+  position: relative;
+  top: 100px;
+}
+.card-3{
+  position: relative;
+  left: 700px;
+  bottom: 220px;
+}
+.card-4{
+  position: relative;
+  left: 700px;
+  bottom: 170px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.637);
+}
+.card-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.637);
+}
+.card-3:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.637);
+}
+.card-4:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.637);
+}
+.cardcontainer{
+  display: flex;
+  padding: 2px 16px;
+}
+
+/* Apply these styles to your SignupPage component */
+
+.custom {
+
+  text-align: center;
+
+  margin: 2rem auto;
+
+}
+
+
+
+.card {
+
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  overflow: hidden;
+
+}
+
+
+
+.login-box {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+.tab {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+  color: #333;
+
+  background-color: #f7f7f7;
+
+  border-radius: 5px;
+
+  margin-right: 10px;
+
+  cursor: pointer;
+
+}
+
+
+
+.tab.active {
+
+  background-color: #333;
+
+  color: #fff;
+
+}
+
+
+
+.login-space {
+
+  padding: 20px;
+
+}
+
+
+
+.label {
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+}
+
+
+
+.input {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+
+
+.button {
+
+  background-color: #333;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 5px;
+
+  padding: 10px 20px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+
+
+.button:hover {
+
+  background-color: #555;
+
+}
+
+
+
+.error {
+
+  color: red;
+
+  margin-top: 10px;
+
+  font-size: 14px;
+
+}
+
+
+
+.foot {
+
+  text-align: center;
+
+  margin-top: 20px;
+
+}
+
+
+
+.hr {
+
+  height: 1px;
+
+  background-color: #ccc;
+
+  border: none;
+
+  margin: 10px 0;
+
+}
+
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+
+  .col-md-6.mx-auto.p-0 {
+
+    padding: 20px;
+
+  }
+
+}
