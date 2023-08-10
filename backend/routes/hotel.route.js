@@ -49,6 +49,15 @@ router.route('/update-hotel/:id').put((req,res,next)=>{
         next(error)
     })
 })
+router.route('/count')
+  .get(async (req, res) => {
+    try {
+      const totalCount = await HotelSchema.countDocuments();
+      res.json({ count: totalCount });
+    } catch (error) {
+      res.status(500).json({ error: 'An error occurred' });
+    }
+  });
 
 router.route('/delete-hotel/:id').delete((req,res,next)=>{
     
