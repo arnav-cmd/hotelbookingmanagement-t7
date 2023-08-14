@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+
+  width: 80vw;
+
+  justify-content: space-around;
+
+  margin: 50px auto;
+}
+
+.room {
+  height: 150px;
+
+  width: 200px;
+
+  border-radius: 5px;
+
+  border: 1px solid #e2e2e2;
+
+  -webkit-box-shadow: 10px 10px 3px 1px rgba(226, 226, 226, 0.59);
+
+  -moz-box-shadow: 10px 10px px 1px rgba(226, 226, 226, 0.59);
+
+  box-shadow: 10px 10px 5px 1px rgba(226, 226, 226, 0.59);
+
+  .title-container {
+    background-color: #e2e2e2;
+
+    display: flex;
+
+    align-items: center;
+
+    .check {
+      margin-right: 20px;
+    }
+  }
+}
+
+.dropdown-container {
+  display: flex;
+
+  justify-content: space-around;
+
+  height: 150px;
+
+  padding: 20px;
+
+  .column {
+    display: flex;
+
+    flex-direction: column;
+
+    .label {
+      font-size: 14px;
+    }
+  }
+}
+
+.dropdown,
+.default-dropdown {
+  width: 40px;
+
+  height: 25px;
+
+  margin: 10px auto;
+}
+
+#default {
+  margin: 1px 0;
+
+  margin-left: 35px;
+}
+
+overrides input styles for chrome/safari /input[type="checkbox"] {
+  -webkit-appearance: none;
+
+  -moz-appearance: none;
+
+  width: 30px;
+
+  height: 30px;
+
+  background: white;
+
+  border-radius: 5px;
+
+  border: 2px solid #555;
+
+  outline: 0;
+}
+
+input[type="checkbox"]:checked {
+  background: #0066ff;
+
+  outline: 0;
+}
