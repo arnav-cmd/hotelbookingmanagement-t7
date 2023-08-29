@@ -1,0 +1,20 @@
+/* Outputa.css */
+.hotel-cards-container {
+    text-align: center;
+  }
+  .hotel-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px; /* Adjust the negative margin to create spacing between cards */
+  }
+  .hotel-card {
+    width: calc(33.33% - 20px); /* 33.33% width for each card, subtracting margin */
+    margin: 10px;
+    transition: transform 0.2s;
+    transform: scale(1);
+  }
+  .hotel-card.hovered {
+    transform: scale(1.05);
+  }
+  
