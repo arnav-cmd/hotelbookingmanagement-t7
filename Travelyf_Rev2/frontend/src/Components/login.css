@@ -1,0 +1,41 @@
+.transparent-form {
+  margin-top:10px;
+  background-color: rgba(231, 181, 16, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(
+    10px
+  ); 
+}
+.transparent-formadmin {
+  margin-top:10px;
+  background-color: rgba(231, 181, 16, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  width:400px;
+  justify-content: center;
+  margin-left:350px;
+  backdrop-filter: blur(
+    10px
+  ); 
+}
+.login-box1{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 430px;
+    margin-bottom: 100px;
+}
+.custom{
+    text-align: center;
+}
+.custom1{
+    text-align: center;
+}
+.input{
+    width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

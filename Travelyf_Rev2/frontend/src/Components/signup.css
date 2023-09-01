@@ -1,0 +1,33 @@
+.transparent-form1 {
+    background-color: rgba(231, 181, 16, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(
+      10px
+    ); 
+  }
+  .login-box2{
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-left: 330px;
+      margin-bottom: 100px;;
+  }
+  .custom2{
+      text-align: center;
+  }
+  .custom1{
+      text-align: center;
+  }
+  .input{
+      width: 100%;
+  
+    padding: 10px;
+  
+    margin: 10px 0;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 5px;
+  }
+  
